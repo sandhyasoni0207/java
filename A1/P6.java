@@ -1,0 +1,21 @@
+
+//Program to print quotient & remainder
+
+import java.util.Scanner;
+
+class P6
+{
+	public static void main(String...k)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter number 1");
+		int a =sc.nextInt();
+		System.out.println("Enter number 2");
+		int b =sc.nextInt();
+		int c =a/b;
+		int d =a%b;
+		System.out.println("quoteint  is ="  +" "+c);
+		System.out.println("remainder is ="  +" "+d);
+		
+	}
+}
